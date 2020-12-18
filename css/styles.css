@@ -208,6 +208,10 @@ img {
   padding: 0;
 }
 /*чем мы занимаемся*/
+.activity {
+  padding-bottom: 94px;
+}
+
 .activity-title {
   font-weight: bold;
   font-size: 36px;
@@ -268,12 +272,14 @@ img {
   font-size: 16px;
   line-height: 1.2;
   margin-bottom: 10px;
+  text-align: center;
 }
 .team-position {
   color: var(--secondary-text-color);
   font-size: 16px;
   line-height: 1.2;
   margin-bottom: 30px;
+  text-align: center;
 }
 .footer {
   background-color: var(--accent-bgc);
