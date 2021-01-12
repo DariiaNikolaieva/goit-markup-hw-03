@@ -28,7 +28,6 @@ body {
   background-color: var(--main-bgc);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
-  cursor: pointer;
 }
 ul {
   list-style: none;
@@ -105,8 +104,8 @@ img {
   padding-top: 32px;
   display: block;
 }
-.site-nav a:hover,
-.site-nav a:focus {
+.site-nav-link:hover,
+.site-nav-link:focus {
   color: var(--accent-text-color);
 }
 .contacts {
